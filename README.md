@@ -14,5 +14,6 @@ A front-end recreation of the YouTube homepage, built entirely from scratch usin
  **UI Precision:-** Focused on matching fine visual details, including exact text sizing, medium/bold font weights, and clean hover states.
 
 ## 🛠️ Built With:-
- **HTML5** - Semantic structure
- **CSS3** - Grid, Flexbox, Media Queries, and Custom Variables
+ **HTML5** - Semantic structure.
+ 
+ **CSS3** - Grid, Flexbox, Media Queries, and Custom Variables.
