@@ -6,8 +6,11 @@ A front-end recreation of the YouTube homepage, built entirely from scratch usin
 
 ## 🚀 Key Focus Areas:-
 **The Layout**:- Built using a mix of **CSS Grid** for the video thumbnail feed and **Flexbox** for the top navigation bar and sidebar alignments.
+
  **Navigation & Search:-** Features a custom-styled search bar, utility buttons, and integrated navigation icon slots matching the real UI.
+ 
  **Fluid Responsiveness:-** Designed to adapt smoothly across desktop, landscape, and portrait mobile screens so elements don't clip or cut off.
+ 
  **UI Precision:-** Focused on matching fine visual details, including exact text sizing, medium/bold font weights, and clean hover states.
 
 ## 🛠️ Built With:-
