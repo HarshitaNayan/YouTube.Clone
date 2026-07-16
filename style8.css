@@ -1,0 +1,449 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap:30px; */
+}
+
+.left{
+    margin:10px 10px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.add-icon{
+    height:auto;
+    margin:5px 10px;
+    font-size: 30px;
+}
+
+/* .navbar-box{ */
+    /* display:flex; */
+    /* align-items: flex-start; */
+    /* gap:30px; */
+/* } */
+
+.logo{
+    display:flex;
+    gap:2px;
+    color:red;
+    font-size: 30px;
+    /* margin-left:20px; */
+    margin-top: 0px;
+    /* gap:20px; */
+    /* letter-spacing: -0.1; */
+}
+
+.logo-utube{
+    color:black;
+    font-size: 900;
+    letter-spacing: -2.5px;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.search-bar{
+    display:flex;
+    align-items: center;
+    /* gap:20px; */
+    flex-grow: 1;
+    justify-content: center;
+    overflow: hidden;
+    /* margin-left: -150px; */
+    /* width:50px; */
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    width:500px;
+    height:40px;
+    background-color: grey transparent;
+    border:3px solid #f2f2f2;
+    border-radius: 40px 0px 0px 40px;
+    padding:0 15px;
+    outline:none;
+    /* gap:50px; */
+    /* font-size: larger; */
+
+}
+
+input{
+    border:none;
+    outline:none;
+    width:100%;
+    font-size: 16px;
+}
+
+.fa-magnifying-glass {
+    background-color: #f2f2f2;
+    padding: 11px 18px;
+    border: 1px solid #ccc;
+    border-radius: 0px 40px 40px 0px;  /* rounded on right only */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mic{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+
+}
+
+.add{
+    font-size:20px ;
+    display: flex;
+    align-items: center;
+    /* margin-right: 200px; */
+}
+
+.right-icons{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    margin-left: auto;
+}
+
+
+.add {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+.fa-bell {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+.profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #065fd4;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-icons{
+    display:flex;
+}
+
+
+
+.add{
+    background-color:#f2f2f2;
+    /* opacity: 0.8; */
+    color: black;
+    font-weight: 400;
+    font-weight: medium;
+    gap:8px;
+    border-radius: 18px;
+}
+
+
+.middle {
+    display: flex;       /* This puts the search bar and mic in a row */
+    align-items: center; /* This aligns the mic vertically with the search bar */
+    flex: 1;            /* This helps it take up the center space */
+    justify-content: center; /* This keeps the whole group centered */
+    margin-right:40px;
+}
+
+.main-body{
+    display:flex;
+    margin-top: 10px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 200;
+    background-color: white;
+}
+
+.sidebar{
+    width:70px;
+    height:calc(100vh - 56px);
+    position:sticky;
+    top:30px;
+    padding:12px;
+    overflow-y: auto;
+}
+
+.sidebar-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 0px;
+    border-radius: 10px;
+    cursor:pointer;
+    gap:20px;
+}
+
+.sidebar-item:hover{
+    background-color: #f2f2f2;
+}
+
+.sidebar-item.active{
+    /* background-color: #f2f2f2; */
+    font-weight: 500;
+}
+
+.sidebar-item i{
+    font-size: 30px;
+    width:24px;
+    text-align: center;
+}
+
+.sidebar-item span{
+    font-size: 14px;
+
+}
+
+.content-area{
+    flex:1;
+    overflow-x: hidden;
+    min-width: 0;
+    /* padding-left: 10px; */
+    /* margin-left:240px; */
+    /* width:calc(100%-240px); */
+}
+
+.main2{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0px;
+    padding:12px 6px;
+    overflow-x: auto;
+    background-color: white;
+    width: 100%;                 
+    position: fixed;         /* ADD THIS - makes it stick like YouTube */
+    top: 57px;                /* ADD THIS - below the header */
+    left:90px;
+    z-index: 100;
+    margin-left: 25px;
+    /* gap:90px; */
+}
+
+.short-title{
+    display: flex;
+    gap:50px;
+}
+
+.title{
+    background-color: #e5e5e5;
+    padding:8px 14px;
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    white-space: nowrap;
+    /* gap:30px; */
+    /* margin-right: 12px; */
+    /* margin-left: 40px; */
+    font-family: arial, sans-serif;
+    letter-spacing: 0.2px;
+    /* width:50px; */
+}
+
+.title.active {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:16px;
+    padding:16px;
+    margin-top: 10px;
+}
+
+.thumbnail{
+    width:100%;
+    border-radius: 10px;
+}
+
+.video-info{
+    display: flex;
+    gap:10px;
+    margin-top: 8px;
+
+}
+
+.video-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin:0 0 4px 0;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+.channel-name{
+    font-size: 13px;
+    color:gray;
+    margin:2px 0;
+
+}
+
+.video-meta{
+    font-size: 13px;
+    color:gray;
+    margin:2px 0;
+}
+
+body {
+    padding-top: 110px;
+}
+
+
+
+@media (max-width: 1024px) {                               /* tablet */
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile - 1 column */
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav.sidebar {
+        display: none;
+    }
+
+    .main2 {
+        left: 0;
+    }
+
+    .main-body {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
